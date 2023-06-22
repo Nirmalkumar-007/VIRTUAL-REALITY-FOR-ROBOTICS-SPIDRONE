@@ -91,4 +91,36 @@ platform simulator for drones, ground vehicles such as cars and various other ob
 proprietary Unreal Engine 4 as a platform for AI research. It is developed by Microsoft and can be used to
 experiment with deep learning, computer vision and reinforcement learning algorithms for autonomous vehicles.
 This allows testing of autonomous solutions without worrying about real-world damage
+#### TOOLS:
+- There are more tools required for completing the assigned work. The main three tools used in this project
+are UNREAL ENGINE (4.27), MICROSOFT AIRSIM, and the ARDUpilot for reference mapping. the details
+of the mentioned tools are described below.
+- #### UNREAL ENGINE: 
+   - Unreal Engine is a complete suite of creation tools for game development, archi-
+tectural, and automotive visualization, linear film and television content creation, broadcast and live event
+production, training and simulation, and others real-time applications.
+- #### MICROSOFT AIRSIM: 
+   - AirSim (Aerial Informatics and Robotics Simulation) is an open-source, cross-
+platform simulator for drones, ground vehicles such as cars and various other objects, built on Epic Games’
+proprietary Unreal Engine 4 as a platform for AI research. It is developed by Microsoft and can be used to
+experiment with deep learning, computer vision and reinforcement learning algorithms for autonomous vehicles.
+This allows testing of autonomous solutions without worrying about real-world damage.
+AirSim, a simulator developed by Microsoft, offers various functions specifically designed for drone applications. 
+
+Here are some key features of AirSim for drone functions:
+
+- Realistic Drone Simulation: AirSim provides a highly realistic simulation environment for drones, including accurate physics-based dynamics, flight controls, and environmental conditions. This allows developers to test and refine their drone algorithms in a safe and controlled virtual environment.
+
+- Sensor Simulation: AirSim supports the simulation of various sensors commonly used in drones, including cameras, lidar, and depth sensors. These sensors generate realistic data, enabling developers to train and evaluate perception algorithms for tasks like object detection, tracking, and mapping.
+
+- Autonomous Navigation: AirSim allows developers to design and test autonomous navigation algorithms for drones. It provides APIs for controlling the drone's movements and accessing its state, enabling the implementation and evaluation of path planning, obstacle avoidance, and waypoint following algorithms.
+
+- Customizable Environments: AirSim allows users to create custom environments and scenarios for drone simulations. This flexibility enables developers to simulate a wide range of real-world scenarios, including different terrains, weather conditions, and lighting variations.
+
+- Machine Learning Integration: AirSim seamlessly integrates with popular machine learning frameworks like TensorFlow and PyTorch. This enables developers to train and evaluate AI models using simulated drone data, facilitating the development of advanced drone control and perception algorithms.
+
+- Multi-Drone Simulations: AirSim supports the simulation of multiple drones simultaneously. This functionality is particularly useful for testing swarm coordination algorithms and evaluating the performance of distributed drone systems.
+
+By providing a realistic and customizable simulation environment, AirSim empowers developers to accelerate the development and testing of drone algorithms, ultimately leading to safer and more capable autonomous drone systems.
+
 ---
