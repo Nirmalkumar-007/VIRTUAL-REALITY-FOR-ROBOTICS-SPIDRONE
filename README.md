@@ -23,32 +23,6 @@ SUPERVISOR:
 
 ---- 
 
-#### INTRODUCTION:
-- In the modern world, maintaining a huge agricultural field is a major issue for humans. However, drones
-can break that barrier by overtaking the responsibilities of maintaining the fields in the given context. The two
-acronyms for drones are unmanned aerial vehicles (UAV) and unmanned aerial systems (UAS).  
-- The term UAV
-means a drone, while UAS includes drones and their associated tools (e.g., flight software or cameras). Both
-the UAV and UAS terms are typically used in technical and regulatory fields.
-- Most drones fall under the categories of rotary or fixed-wing. A rotary-style drone would be similar to a
-helicopter which is cheaper and versatile, while a fixed-wing drone looks exactly like an airplane. 
-- A third type of
-drone is a hybrid, which has both rotary and fixed wings. Considering the agricultural application, the Multi
-copter drones are very useful to accomplish a task with a lot of advantages.
-- Thermal radiation, or temperature, can be measured using longer infrared wavelengths. Plants that are
-either dead or stressed should be warmer due to decreased evapotranspiration, which thermal cameras can
-detect. 
-- This could be useful in irrigated fields in Delaware. There are numerous claims in the agricultural drone
-market that drones can be used to measure crop health. In many cases, these businesses use multispectral
-data to observe how plants reflect various wavelengths of light. 
-- Precision spraying and seeding from the air via
-agricultural drones are our fields of development for the course of this Virtual reality for robotics. To Create
-a semi-autonomous UAV that works using a predefined plan in an agricultural field for spraying applications.
-Further details about the state of the art are described in detail below.
-
-
-
----
 #### DESCRIPTION:
 - Creating semiautonomous UAVs that work using a predefined plan that can be used to spray pesticides over
 large agricultural land. The drone is able to detect the type of areas to spray, monitor the current condition and spray where the areas are not well treated,
@@ -72,8 +46,33 @@ process. Along with this a base ground control station for the drone is also bui
 home when out of the spraying liquid or when the battery is low. This ground control station is located near
 agricultural land which makes the work easier for the drones.
 
+
+
 ---
-#### TOOLS:
+#### INTRODUCTION:
+- In the modern world, maintaining a huge agricultural field is a major issue for humans. However, drones
+can break that barrier by overtaking the responsibilities of maintaining the fields in the given context. The two
+acronyms for drones are unmanned aerial vehicles (UAV) and unmanned aerial systems (UAS).  
+- The term UAV
+means a drone, while UAS includes drones and their associated tools (e.g., flight software or cameras). Both
+the UAV and UAS terms are typically used in technical and regulatory fields.
+- Most drones fall under the categories of rotary or fixed-wing. A rotary-style drone would be similar to a
+helicopter which is cheaper and versatile, while a fixed-wing drone looks exactly like an airplane. 
+- A third type of
+drone is a hybrid, which has both rotary and fixed wings. Considering the agricultural application, the Multi
+copter drones are very useful to accomplish a task with a lot of advantages.
+- Thermal radiation, or temperature, can be measured using longer infrared wavelengths. Plants that are
+either dead or stressed should be warmer due to decreased evapotranspiration, which thermal cameras can
+detect. 
+- This could be useful in irrigated fields in Delaware. There are numerous claims in the agricultural drone
+market that drones can be used to measure crop health. In many cases, these businesses use multispectral
+data to observe how plants reflect various wavelengths of light. 
+- Precision spraying and seeding from the air via
+agricultural drones are our fields of development for the course of this Virtual reality for robotics. To Create
+a semi-autonomous UAV that works using a predefined plan in an agricultural field for spraying applications.
+Further details about the state of the art are described in detail below.
+---
+#### TOOLS USED:
 - There are more tools required for completing the assigned work. The main three tools used in this project
 are UNREAL ENGINE (4.27), MICROSOFT AIRSIM, the details
 of the mentioned tools are described below.
