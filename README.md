@@ -80,12 +80,8 @@ of the mentioned tools are described below.
    - Unreal Engine is a complete suite of creation tools for game development, archi-
 textural, and automotive visualization, linear film and television content creation, broadcast and live event
 production, training and simulation, and other real-time applications.
-- MICROSOFT AIRSIM: 
-   - AirSim (Aerial Informatics and Robotics Simulation) is an open-source, cross-
-platform simulator for drones, ground vehicles such as cars, and various other objects, built on Epic Games'
-proprietary Unreal Engine 4 as a platform for AI research. It is developed by Microsoft and can be used to
-experiment with deep learning, computer vision, and reinforcement learning algorithms for autonomous vehicles.
-This allows the testing of autonomous solutions without worrying about real-world damage
+
+
 
 
 
@@ -95,7 +91,8 @@ platform simulator for drones, ground vehicles such as cars and various other ob
 proprietary Unreal Engine 4 as a platform for AI research. 
    - It is developed by Microsoft and can be used to
 experiment with deep learning, computer vision, and reinforcement learning algorithms for autonomous vehicles.
-This allows the testing of autonomous solutions without worrying about real-world damage.
+
+- This allows the testing of autonomous solutions without worrying about real-world damage.
 AirSim, a simulator developed by Microsoft, offers various functions specifically designed for drone applications. 
 
 Here are some key features of AirSim for drone functions:
