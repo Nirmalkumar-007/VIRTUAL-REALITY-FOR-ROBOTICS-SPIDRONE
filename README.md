@@ -2,6 +2,11 @@ FINAL ASSIGNMENT - GROUP15 - SPIDRONE.
 ---
 ---
 # VIRTUAL REALITY FOR ROBOTICS
+----
+### PROJECT TOPIC: 
+### PRECISION SPRAYING AND SEEDING FROM THE AIR VIA AGRICULTURAL DRONES.
+----
+
 GROUP MEMBERS:
 -  [Nirmal Kumar Ravikumar](https://github.com/Nirmalkumar-007)
 -  [Jerin Joy](https://github.com/Nirmalkumar-007)
@@ -13,8 +18,7 @@ UNDER THE GUIDANCE OF,
 
 
 ---
-### PROJECT TOPIC: 
-### PRECISION SPRAYING AND SEEDING FROM THE AIR VIA AGRICULTURAL DRONES.
+
 
 #### SYNOPSIS:
 - Create an autonomous UAV that works using a predefined plan that can be used to spray pesticides over large agricultural land. 
