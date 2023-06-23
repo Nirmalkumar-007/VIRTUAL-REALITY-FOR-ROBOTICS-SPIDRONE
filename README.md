@@ -78,11 +78,10 @@ are UNREAL ENGINE (4.27), MICROSOFT AIRSIM, the details
 of the mentioned tools are described below.
 - #### UNREAL ENGINE: 
    - Unreal Engine is a complete suite of creation tools for game development, archi-
-textural, and automotive visualization, linear film and television content creation, broadcast and live event
+textural, and automotive visualization, linear film and television content creation, broadcast, and live event
 production, training and simulation, and other real-time applications.
-
-
-
+   - The Unreal engine has a lot of versions with advanced features. For this task, we used unreal engine version 4.27 for simulating the drone in the environment. 
+   - MARKET PLACE: This is a place where we can get the landscapes, foliages, effects, and many features required to fulfill a project. We used most of the features in our project.
 
 
 - #### MICROSOFT AIRSIM: 
