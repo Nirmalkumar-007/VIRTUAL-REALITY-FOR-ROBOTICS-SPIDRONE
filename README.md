@@ -83,6 +83,8 @@ production, training and simulation, and other real-time applications.
    - The Unreal engine has a lot of versions with advanced features. For this task, we used unreal engine version 4.27 for simulating the drone in the environment. 
    - MARKET PLACE: This is a place where we can get the landscapes, foliages, effects, and many features required to fulfill a project. We used most of the features in our project.
 
+- #### PYTHON 3.7:
+   - Python 3.7 is a versatile and beginner-friendly programming language. With clean syntax and a rich ecosystem, it's ideal for web development, data analysis, and automation. New features like data classes and improved type hinting enhance coding efficiency. Python's extensive standard library and active community support make it a powerful choice for developers of all levels. 
 
 - #### MICROSOFT AIRSIM: 
    - AirSim (Aerial Informatics and Robotics Simulation) is an open-source, cross-
