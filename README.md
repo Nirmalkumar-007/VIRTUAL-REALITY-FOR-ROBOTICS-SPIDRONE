@@ -92,7 +92,7 @@ proprietary Unreal Engine 4 as a platform for AI research.
    - It is developed by Microsoft and can be used to
 experiment with deep learning, computer vision, and reinforcement learning algorithms for autonomous vehicles.
 
-- This allows the testing of autonomous solutions without worrying about real-world damage.
+   - This allows the testing of autonomous solutions without worrying about real-world damage.
 AirSim, a simulator developed by Microsoft, offers various functions specifically designed for drone applications. 
 
 Here are some key features of AirSim for drone functions:
