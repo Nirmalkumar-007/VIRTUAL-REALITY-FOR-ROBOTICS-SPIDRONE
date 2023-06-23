@@ -74,7 +74,7 @@ agricultural land which makes the work easier for the drones.
 ---
 #### TOOLS:
 - There are more tools required for completing the assigned work. The main three tools used in this project
-are UNREAL ENGINE (4.27), MICROSOFT AIRSIM, and the ARDUpilot for reference mapping. the details
+are UNREAL ENGINE (4.27), MICROSOFT AIRSIM, the details
 of the mentioned tools are described below.
 - UNREAL ENGINE: 
    - Unreal Engine is a complete suite of creation tools for game development, archi-
@@ -82,20 +82,10 @@ textural, and automotive visualization, linear film and television content creat
 production, training and simulation, and other real-time applications.
 - MICROSOFT AIRSIM: 
    - AirSim (Aerial Informatics and Robotics Simulation) is an open-source, cross-
-platform simulator for drones, ground vehicles such as cars, and various other objects, built on Epic Games’
+platform simulator for drones, ground vehicles such as cars, and various other objects, built on Epic Games'
 proprietary Unreal Engine 4 as a platform for AI research. It is developed by Microsoft and can be used to
-experiment with deep learning, computer vision and reinforcement learning algorithms for autonomous vehicles.
-This allows testing of autonomous solutions without worrying about real-world damage
-#### TOOLS:
-- There are more tools required for completing the assigned work. The main three tools used in this project
-are UNREAL ENGINE (4.27), MICROSOFT AIRSIM, and the ARDUpilot for reference mapping. the details
-of the mentioned tools are described below.
-- #### UNREAL ENGINE: 
-   - Unreal Engine is a complete suite of creation tools for game development, archi-
-textural, and automotive visualization, linear film and television content creation, broadcast, and live event
-production, training and simulation, and other real-time applications.
-   - The Unreal engine has a lot of versions with advanced features. For this task, we used unreal engine version 4.27 for simulating the drone in the environment. 
-   - MARKET PLACE: This is a place where we can get the landscapes, foliages, effects, and many features required to fulfill a project. We used most of the features in our project.
+experiment with deep learning, computer vision, and reinforcement learning algorithms for autonomous vehicles.
+This allows the testing of autonomous solutions without worrying about real-world damage
 
 
 
