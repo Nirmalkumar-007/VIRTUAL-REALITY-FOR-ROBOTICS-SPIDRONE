@@ -138,20 +138,11 @@ are UNREAL ENGINE (4.27), MICROSOFT AIRSIM, the details
 of the mentioned tools are described below.
 
 ----
-----
-
-----
 
 https://github.com/Nirmalkumar-007/VIRTUAL-REALITY-FOR-ROBOTICS-SPIDRONE/assets/93769409/9d4a93e6-2a86-4514-8aef-772beb2953ef
 
-
 ----
 
 
 
-https://github.com/Nirmalkumar-007/VIRTUAL-REALITY-FOR-ROBOTICS-SPIDRONE/assets/93769409/a2dce38c-7009-473f-b5a3-d636df4e6596
 
-
-
-
-----
