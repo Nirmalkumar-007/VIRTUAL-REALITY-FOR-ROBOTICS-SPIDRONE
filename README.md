@@ -6,7 +6,7 @@ GROUP MEMBERS:
 -  [Nirmal Kumar Ravikumar](https://github.com/Nirmalkumar-007)
 -  [Jerin Joy](https://github.com/Nirmalkumar-007)
 -  [Abdul Rauf](https://github.com/Nirmalkumar-007)
--  [Krishant tharun](https://github.com/Nirmalkumar-007)
+-  [Krishant Tharun](https://github.com/Nirmalkumar-007)
 
 SUPERVISOR:
 -  Prof.  [Gianni Vercelli](https://rubrica.unige.it/personale/VUZCWVtr)
@@ -136,3 +136,9 @@ of the mentioned tools are described below.
 - There are more tools required for completing the assigned work. The main three tools used in this project
 are UNREAL ENGINE (4.27), MICROSOFT AIRSIM, the details
 of the mentioned tools are described below.
+
+----
+----
+
+----
+----
