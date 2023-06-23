@@ -8,7 +8,7 @@ GROUP MEMBERS:
 -  [Abdul Rauf](https://github.com/Nirmalkumar-007)
 -  [Krishant Tharun](https://github.com/Nirmalkumar-007)
 
-SUPERVISOR:
+UNDER THE GUIDANCE OF,
 -  Prof.  [Gianni Vercelli](https://rubrica.unige.it/personale/VUZCWVtr)
 
 
