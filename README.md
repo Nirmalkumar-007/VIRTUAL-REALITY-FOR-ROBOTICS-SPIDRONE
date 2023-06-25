@@ -37,3 +37,6 @@ Vr Project\simple_airsim-master> Python agricultural_drone_simulation.py
 
 
 ![Screenshot 2023-06-25 215609](https://github.com/Nirmalkumar-007/VIRTUAL-REALITY-FOR-ROBOTICS-SPIDRONE/assets/93769409/38ebddde-14c7-467b-9661-fc4cb8672be8)
+
+14. To stop the simulation, Just press the escape button in the unreal engine. And then go to the Python window and press stop. To simulate the drone again, Then follow the same instructions mentioned above.
+15. These simulations can work fast or slow based on the graphics and other requirements.  
