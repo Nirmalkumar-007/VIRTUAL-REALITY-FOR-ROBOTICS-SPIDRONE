@@ -5,7 +5,7 @@
 2. Download  [Python version 3.7.](https://www.python.org/downloads/)
 
 3. Download  [AIRSIM](https://github.com/microsoft/AirSim.git) from Microsoft.
-4. Follow these steps to properly install the plugins and connect Unreal with the airsim.
+4. Follow these steps to install the plugins and connect Unreal with the airsim.
 ```
 https://github.com/microsoft/AirSim.git
 ```
