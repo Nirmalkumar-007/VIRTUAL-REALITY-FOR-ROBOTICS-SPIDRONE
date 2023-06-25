@@ -129,14 +129,9 @@ By providing a realistic and customizable simulation environment, AirSim empower
      - Enhance visuals with post-processing effects.
      - Optimize performance for smooth running.
      - Iterate and test for refinement.
- 
-
-
-
        
 ----
-#### TOOLS:
-
+#### 1. LANDSCAPE AND HEIGHT MAP:
 
 - There are more tools required for completing the assigned work. The main three tools used in this project
 are UNREAL ENGINE (4.27), MICROSOFT AIRSIM, the details
@@ -144,13 +139,75 @@ of the mentioned tools are described below.
 
 ----
 
-#### ENVIRONMENT:
+#### 2. FOLIAGES:
 
 - This environment is designed for carrying out spraying actions on agricultural land using UAVs. As a initial stage the agricultural areas with crops are being construted. After the basic construction the 
 
-https://github.com/Nirmalkumar-007/VIRTUAL-REALITY-FOR-ROBOTICS-SPIDRONE/assets/93769409/9d4a93e6-2a86-4514-8aef-772beb2953ef
+----
+#### 2. :
+
+- This environment is designed for carrying out spraying actions on agricultural land using UAVs. As a initial stage the agricultural areas with crops are being construted. After the basic construction the 
 
 ----
+#### 2. FOLIAGES:
+
+- This environment is designed for carrying out spraying actions on agricultural land using UAVs. As a initial stage the agricultural areas with crops are being construted. After the basic construction the 
+
+----
+#### 5. CODE, LIBRARIES AND DEPENDENCIES:
+   //CODE
+   import time
+
+   from simple_airsim.api import coordinate_system
+   from simple_airsim.api.drone import Drone
+   from simple_airsim.api.gui_manager import GUIManager
+   from simple_airsim.api.manager import Manager
+
+
+   def square(drone: Drone):
+       drone.takeoff(True)
+       while True:
+           drone.move_by(7, 0, 0, True)
+           drone.turn_by(0, 0, -90, True)
+           for i in range(6):
+               drone.move_by(5, 0, 0, True)
+               drone.turn_by(0, 0, 90, True)
+           time.sleep(0.1)
+
+
+   if __name__ == '__main__':
+       with Manager(coordinate_system.AIRSIM, method=square) as man:
+           with GUIManager(man, 10, 10, 10, 3) as gui:
+               gui.start()
+
+   
+- The code starts with the necessary imports. The simple_airsim.api module is imported, which includes classes for interacting with AirSim. The time module is imported for introducing a small delay between drone movements.
+
+- The square function is defined, which takes a Drone object as an argument. Inside the function, the drone is instructed to take off by calling the drone. takeoff(True). The True argument indicates that the function should wait for the drone to reach the desired altitude before continuing.
+
+- The code enters an infinite loop using while True. This loop is responsible for executing the square flight pattern repeatedly.
+
+- Within the loop, the drone moves forward by 7 units using drone.move_by(7, 0, 0, True). The function takes the parameters for movement in the X, Y, and Z directions, with the last argument True indicating that the function should wait for the movement to complete before proceeding.
+
+- After moving forward, the drone turns left by 90 degrees using drone.turn_by(0, 0, -90, True). The function specifies the rotation angles in the roll, pitch, and yaw axes, with the yaw component set to -90 degrees to indicate a left turn.
+
+- Next, a for loop is used to repeat the following steps six times. This loop is responsible for executing the sides of the square.
+
+- Within the loop, the drone moves forward by 5 units using drone.move_by(5, 0, 0, True). It then turns right by 90 degrees using drone.turn_by(0, 0, 90, True). This sequence of movements creates a side of the square.
+
+- A small delay of 0.1 seconds is introduced between each movement using time.sleep(0.1). This helps to create a smoother flight pattern.
+
+- The main execution block starts with a with statement. It creates a Manager object with the coordinate system set to AIRSIM and the flight pattern method set to the square function defined earlier. The with statement ensures proper initialization and cleanup of the manager.
+
+- Inside the with block, a GUIManager object is created. It takes the Manager object and specifies the dimensions of the GUI window (10 units in length, 10 units in width, and 3 units in height).
+
+- Finally, the gui.start() function is called, which launches the GUI window and starts the execution of the flight pattern. This allows us to visualize the drone's movement in the GUI window.
+
+----
+
+
+
+https://github.com/Nirmalkumar-007/VIRTUAL-REALITY-FOR-ROBOTICS-SPIDRONE/assets/93769409/9d4a93e6-2a86-4514-8aef-772beb2953ef
 
 
 
