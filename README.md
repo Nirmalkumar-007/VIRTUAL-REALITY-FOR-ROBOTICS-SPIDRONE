@@ -6,7 +6,7 @@
 
 GROUP MEMBERS:
 -  [Nirmal Kumar Ravikumar](https://github.com/Nirmalkumar-007)
--  [Jerin Joy](https://github.com/Nirmalkumar-007)
+-  [Jerin Joy](https://github.com/jerin-joy)
 -  [Abdul Rauf](https://github.com/Nirmalkumar-007)
 -  [Krishant Tharun](https://github.com/Nirmalkumar-007)
 
