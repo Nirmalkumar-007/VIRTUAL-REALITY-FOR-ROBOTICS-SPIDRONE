@@ -36,4 +36,4 @@ Vr Project\simple_airsim-master> Python agricultural_drone_simulation.py
 13. By pressing the F1 button from the keyboard, we can find the list of options the airsim can adopt. Few features are shown in the image below
 
 
-  ![Screenshot 2023-06-25 215208](https://github.com/Nirmalkumar-007/VIRTUAL-REALITY-FOR-ROBOTICS-SPIDRONE/assets/93769409/07c7f38b-f011-4533-bc26-d22217bb87f6)
+![Screenshot 2023-06-25 215208](https://github.com/Nirmalkumar-007/VIRTUAL-REALITY-FOR-ROBOTICS-SPIDRONE/assets/93769409/2984c6aa-7f09-4584-87ac-a3f9ce5817f0)
