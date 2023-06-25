@@ -137,24 +137,13 @@ By providing a realistic and customizable simulation environment, AirSim empower
 are UNREAL ENGINE (4.27), MICROSOFT AIRSIM, the details
 of the mentioned tools are described below.
 
-----
 
 #### 2. FOLIAGES:
 
 - This environment is designed for carrying out spraying actions on agricultural land using UAVs. As a initial stage the agricultural areas with crops are being construted. After the basic construction the 
 
 ----
-#### 2. :
-
-- This environment is designed for carrying out spraying actions on agricultural land using UAVs. As a initial stage the agricultural areas with crops are being construted. After the basic construction the 
-
-----
-#### 2. FOLIAGES:
-
-- This environment is designed for carrying out spraying actions on agricultural land using UAVs. As a initial stage the agricultural areas with crops are being construted. After the basic construction the 
-
-----
-#### 5. CODE, LIBRARIES AND DEPENDENCIES:
+#### 3. CODE, LIBRARIES AND DEPENDENCIES:
    
 CODE
 
@@ -204,7 +193,7 @@ CODE
 
 ----
 
-
+#### 5. FINAL ENVIRONMENT:
 
 https://github.com/Nirmalkumar-007/VIRTUAL-REALITY-FOR-ROBOTICS-SPIDRONE/assets/93769409/9d4a93e6-2a86-4514-8aef-772beb2953ef
 
