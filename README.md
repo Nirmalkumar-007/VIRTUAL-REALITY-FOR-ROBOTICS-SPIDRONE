@@ -16,6 +16,10 @@ UNDER THE GUIDANCE OF,
 
 ---
 
+- Steps to simulate the drone in the environment can be found in the branch of this repository called RUN.
+- or press [STEPS TO SIMULATE]([https://nodeca.github.io/pica/demo/](https://github.com/Nirmalkumar-007/VIRTUAL-REALITY-FOR-ROBOTICS-SPIDRONE/blob/RUN/README.md)) 
+
+---
 
 #### SYNOPSIS:
 - Create an autonomous UAV that works using a predefined plan that can be used to spray pesticides over large agricultural land. 
