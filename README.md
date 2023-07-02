@@ -265,10 +265,29 @@ Most of the calls also have a 'wait' variable that when set to True will cause t
 
 
 ----
+
 #### 7. FINAL ENVIRONMENT:
 
 https://github.com/Nirmalkumar-007/VIRTUAL-REALITY-FOR-ROBOTICS-SPIDRONE/assets/93769409/9d4a93e6-2a86-4514-8aef-772beb2953ef
 
+----
 
+#### 8. CONCLUSION:
+- Introducing an autonomous UAV designed for efficient pesticide spraying in large agricultural areas. This drone operates based on a predefined plan, eliminating the need for manual intervention & in case if needed the drone can be controlled manually. Equipped with advanced sensing capabilities, it autonomously detects the areas requiring pesticide treatment (spraying), ensuring targeted spraying and minimizing environmental impact.
+
+- The UAV continuously monitors the current conditions of the agricultural land, collecting valuable data to optimize the spraying process. Through onboard sensors and cameras, it analyzes various parameters such as crop health, pest infestation levels, and soil moisture content. This data is then processed in real-time to make informed decisions regarding pesticide application.
+
+- The autonomous UAV streamlines agricultural operations by significantly reducing manual labor and increasing operational efficiency. Farmers can rely on this technology to improve crop yield and protect their harvests from pests and diseases. Furthermore, the drone's ability to adapt to changing environmental conditions ensures the most effective pesticide application throughout the growing season.
+
+In conclusion, the autonomous UAV for pesticide spraying revolutionizes the agricultural industry by providing an intelligent and automated solution. With its ability to detect target areas, monitor environmental conditions, and optimize pesticide distribution, this drone enhances productivity, reduces costs, and promotes sustainable farming practices. Its integration into agricultural operations promises a more efficient and environmentally conscious approach to pest control, leading to higher yields and healthier crops.
+
+----
+
+#### 9. REFERENCES:
+• https://microsoft.github.io/AirSim/build_windows/
+•	https://github.com/microsoft/AirSim/issues/468
+• 
+
+----
 
 
