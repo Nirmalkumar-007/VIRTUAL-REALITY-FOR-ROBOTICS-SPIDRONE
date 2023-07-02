@@ -135,7 +135,12 @@ By providing a realistic and customizable simulation environment, AirSim empower
      - Iterate and test for refinement.
        
 ----
-#### 1. LANDSCAPE AND HEIGHT MAP:
+#### 1. AIR SIM GAME MODE:
+- AirSim is primarily designed as a research and development platform for simulating autonomous systems, such as drones and vehicles. It provides a realistic simulation environment with accurate physics and sensor models.
+  
+![game mode](https://github.com/Nirmalkumar-007/VIRTUAL-REALITY-FOR-ROBOTICS-SPIDRONE/assets/93769409/e8da39e7-d96b-4938-91da-a9669d5af621)
+
+#### 2. LANDSCAPE AND HEIGHT MAP:
 
 - There are more tools required for completing the assigned work.
 
@@ -143,7 +148,7 @@ By providing a realistic and customizable simulation environment, AirSim empower
 
 
 
-#### 2. FOLIAGES:
+#### 3. FOLIAGES:
 
 - This environment is designed for carrying out spraying actions on agricultural land using UAVs. 
 
@@ -151,7 +156,7 @@ By providing a realistic and customizable simulation environment, AirSim empower
 ![Screenshot 2023-06-23 141933](https://github.com/Nirmalkumar-007/VIRTUAL-REALITY-FOR-ROBOTICS-SPIDRONE/assets/93769409/689a0a85-0b69-4ae8-9c64-42c1ee52d246)
 
 ----
-#### 3. CODE, LIBRARIES AND DEPENDENCIES:
+#### 4. CODE, LIBRARIES, AND DEPENDENCIES:
    
 CODE
 
@@ -219,24 +224,40 @@ Turns by a specified relative angle (in roll, pitch, yaw).
 Sets the desired roll, and pitch, the desired turn speed in the yaw, and the desired height in the z.
 
 #### drone.get_position()
-Returns the drone's position in relation to it's starting point, as a dictionary of 'x', 'y', and 'z' in meters.
+Returns the drone's position in relation to its starting point, as a dictionary of 'x', 'y', and 'z' in meters.
 #### drone.get_orientation()
-Returns the drone's orientation in relation to it's starting point, as a dictionary of 'roll', 'pitch' and 'yaw', in degrees.
+Returns the drone's orientation in relation to its starting point, as a dictionary of 'roll', 'pitch' and 'yaw', in degrees.
 ### drone.get_velocity()
-Returns the drone's velocity in all directions an angles as a dictionary of 'x', 'y', 'z', 'roll', 'pitch', and 'yaw'.
-The distances are in meters per second, an the angles are in degrees per second.
+Returns the drone's velocity in all directions and angles as a dictionary of 'x', 'y', 'z', 'roll', 'pitch', and 'yaw'.
+The distances are in meters per second, the angles are in degrees per second.
 #### drone.get_lidars()
-Returns the distances from the closest object in all siz directions as a dictionary of 'up', 'down', 'right', 'left',
+Returns the distances from the closest object in all six directions as a dictionary of 'up', 'down', 'right', 'left',
 'front', and 'back', in meters.
+
+## UI
+
+ Features:
+ -
+ - The drone can be controlled manually using the keyboard, which is helpful for moving the drone to specific places to test an algorithm.
+ - The UI shows the drone's position and orientation, as well as the velocity and lidars for easy debugging.
+ 
+### Keyboard Control In Manual Mode
+When in Manual Mode, the drone can be controlled using the keyboard, where w/s is throttle, a/d is yaw, up/down is pitch and right/left is roll.
 
 
 Most of the calls also have a 'wait' variable that when set to True will cause the call to only return when finished executing.
 
+----
+#### 5. BLUEPRINT FOR SPRAYING PROCESS:
+- In this project, we have done the spraying process with the help of the blueprints. There are two different modes. One the drone can spray automatically when it is the nontreated places. And the other one can spray manually by pressing the alphabet "O" during the simulation.
 
+![BLUEPRINT FOR SPRAYING](https://github.com/Nirmalkumar-007/VIRTUAL-REALITY-FOR-ROBOTICS-SPIDRONE/assets/93769409/21eddda8-4a2b-4aaa-bc3c-829c62c815a2)
+
+![ENGINE INPUT FOR THE MANUAL SPRAYIMG BUTTON](https://github.com/Nirmalkumar-007/VIRTUAL-REALITY-FOR-ROBOTICS-SPIDRONE/assets/93769409/091e33d9-f878-47d5-9f01-a080463e87e1)
 
 ----
 
-#### 5. FINAL ENVIRONMENT:
+#### 6. FINAL ENVIRONMENT:
 
 https://github.com/Nirmalkumar-007/VIRTUAL-REALITY-FOR-ROBOTICS-SPIDRONE/assets/93769409/9d4a93e6-2a86-4514-8aef-772beb2953ef
 
