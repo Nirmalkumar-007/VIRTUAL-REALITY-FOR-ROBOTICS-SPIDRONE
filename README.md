@@ -205,46 +205,44 @@ CODE
 - Finally, the gui.start() function is called, which launches the GUI window and starts the execution of the flight pattern. This allows us to visualize the drone's movement in the GUI window.
 
 ### API
-The simulative drone is controlled using calls to a Drone object.
+- The simulative drone is controlled using calls to a Drone object.
 The following calls are supported:
 
 #### drone.takeoff()
-Starts the drone. The drone will stay in place until the next command is sent.
+- Starts the drone. The drone will stay in place until the next command is sent.
 #### drone.hover()
-Cancel the last command and stay in place.
+- Cancel the last command and stay in place.
 #### drone.land()
-Lands the drone.
+- Lands the drone.
 
 #### drone.move_by(x, y, z)
-Moves by a specified relative distance (in x, y, z).
+- Moves by a specified relative distance (in x, y, z).
 #### drone.turn_by(x, y, z)
-Turns by a specified relative angle (in roll, pitch, yaw).
+- Turns by a specified relative angle (in roll, pitch, yaw).
 
 #### drone.command(roll, pitch, yaw_rate, z)
-Sets the desired roll, and pitch, the desired turn speed in the yaw, and the desired height in the z.
+- Sets the desired roll, and pitch, the desired turn speed in the yaw, and the desired height in the z.
 
 #### drone.get_position()
-Returns the drone's position in relation to its starting point, as a dictionary of 'x', 'y', and 'z' in meters.
+- Returns the drone's position in relation to its starting point, as a dictionary of 'x', 'y', and 'z' in meters.
 #### drone.get_orientation()
-Returns the drone's orientation in relation to its starting point, as a dictionary of 'roll', 'pitch' and 'yaw', in degrees.
+- Returns the drone's orientation in relation to its starting point, as a dictionary of 'roll', 'pitch' and 'yaw', in degrees.
 ### drone.get_velocity()
-Returns the drone's velocity in all directions and angles as a dictionary of 'x', 'y', 'z', 'roll', 'pitch', and 'yaw'.
-The distances are in meters per second, the angles are in degrees per second.
+- Returns the drone's velocity in all directions and angles as a dictionary of 'x', 'y', 'z', 'roll', 'pitch', and 'yaw'.
+- The distances are in meters per second, the angles are in degrees per second.
 #### drone.get_lidars()
-Returns the distances from the closest object in all six directions as a dictionary of 'up', 'down', 'right', 'left',
+- Returns the distances from the closest object in all six directions as a dictionary of 'up', 'down', 'right', 'left',
 'front', and 'back', in meters.
 
 ## UI
 
  Features:
- -
  - The drone can be controlled manually using the keyboard, which is helpful for moving the drone to specific places to test an algorithm.
  - The UI shows the drone's position and orientation, as well as the velocity and lidars for easy debugging.
  
 ### Keyboard Control In Manual Mode
-When in Manual Mode, the drone can be controlled using the keyboard, where w/s is throttle, a/d is yaw, up/down is pitch and right/left is roll.
-
-
+- When in Manual Mode, the drone can be controlled using the keyboard, where w/s is throttle, a/d is yaw, up/down is pitch and right/left is roll.
+ 
 Most of the calls also have a 'wait' variable that when set to True will cause the call to only return when finished executing.
 
 ----
@@ -257,7 +255,13 @@ Most of the calls also have a 'wait' variable that when set to True will cause t
 
 ----
 
-#### 6. FINAL ENVIRONMENT:
+#### 6. SPRAYING PROPERTIES:
+- There are different properties for the spraying imported from the marketplace to the project. We have used a preferred one for this task.
+
+![SPRAYING PROPERTIES](https://github.com/Nirmalkumar-007/VIRTUAL-REALITY-FOR-ROBOTICS-SPIDRONE/assets/93769409/82f6e131-d358-4b79-9a43-86895da8d17d)
+
+----
+#### 7. FINAL ENVIRONMENT:
 
 https://github.com/Nirmalkumar-007/VIRTUAL-REALITY-FOR-ROBOTICS-SPIDRONE/assets/93769409/9d4a93e6-2a86-4514-8aef-772beb2953ef
 
