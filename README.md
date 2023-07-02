@@ -284,9 +284,15 @@ In conclusion, the autonomous UAV for pesticide spraying revolutionizes the agri
 ----
 
 #### 9. REFERENCES:
-• https://microsoft.github.io/AirSim/build_windows/
-•	https://github.com/microsoft/AirSim/issues/468
-• 
+
+- https://microsoft.github.io/AirSim/build_windows/
+- https://www.youtube.com/watch?v=QL51f8qdsm8
+- https://github.com/microsoft/AirSim/issues/468
+- https://microsoft.github.io/AirSim/unreal_custenv/
+- https://www.youtube.com/watch?v=DiqgsWIOoW4
+- https://www.youtube.com/watch?v=1oY8Qu5maQQ
+- https://www.youtube.com/watch?v=h1dMtDQet_E
+  
 
 ----
 
