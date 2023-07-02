@@ -150,7 +150,9 @@ By providing a realistic and customizable simulation environment, AirSim empower
 
 #### 3. FOLIAGES:
 
-- This environment is designed for carrying out spraying actions on agricultural land using UAVs. 
+- This environment is designed using the foliages to create the agricultural environment for carrying out spraying actions on agricultural land using UAVs.
+- There are a lot of foliages in the marketplace. We have used almost three packs of foliages to make this environment.
+- These foliage packages are available in the folders of this project. 
 
   
 ![Screenshot 2023-06-23 141933](https://github.com/Nirmalkumar-007/VIRTUAL-REALITY-FOR-ROBOTICS-SPIDRONE/assets/93769409/689a0a85-0b69-4ae8-9c64-42c1ee52d246)
