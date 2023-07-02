@@ -199,6 +199,41 @@ CODE
 
 - Finally, the gui.start() function is called, which launches the GUI window and starts the execution of the flight pattern. This allows us to visualize the drone's movement in the GUI window.
 
+### API
+The simulative drone is controlled using calls to a Drone object.
+The following calls are supported:
+
+#### drone.takeoff()
+Starts the drone. The drone will stay in place until the next command is sent.
+#### drone.hover()
+Cancel the last command and stay in place.
+#### drone.land()
+Lands the drone.
+
+#### drone.move_by(x, y, z)
+Moves by a specified relative distance (in x, y, z).
+#### drone.turn_by(x, y, z)
+Turns by a specified relative angle (in roll, pitch, yaw).
+
+#### drone.command(roll, pitch, yaw_rate, z)
+Sets the desired roll, and pitch, the desired turn speed in the yaw, and the desired height in the z.
+
+#### drone.get_position()
+Returns the drone's position in relation to it's starting point, as a dictionary of 'x', 'y', and 'z' in meters.
+#### drone.get_orientation()
+Returns the drone's orientation in relation to it's starting point, as a dictionary of 'roll', 'pitch' and 'yaw', in degrees.
+### drone.get_velocity()
+Returns the drone's velocity in all directions an angles as a dictionary of 'x', 'y', 'z', 'roll', 'pitch', and 'yaw'.
+The distances are in meters per second, an the angles are in degrees per second.
+#### drone.get_lidars()
+Returns the distances from the closest object in all siz directions as a dictionary of 'up', 'down', 'right', 'left',
+'front', and 'back', in meters.
+
+
+Most of the calls also have a 'wait' variable that when set to True will cause the call to only return when finished executing.
+
+
+
 ----
 
 #### 5. FINAL ENVIRONMENT:
