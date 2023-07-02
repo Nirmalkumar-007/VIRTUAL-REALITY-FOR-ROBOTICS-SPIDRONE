@@ -255,10 +255,12 @@ Most of the calls also have a 'wait' variable that when set to True will cause t
 
 ----
 
-#### 6. SPRAYING PROPERTIES:
+#### 6. SPRAYING PROPERTIES & SPRAYING IN THE ENVIRONMENT:
 - There are different properties for the spraying imported from the marketplace to the project. We have used a preferred one for this task.
 
 ![SPRAYING PROPERTIES](https://github.com/Nirmalkumar-007/VIRTUAL-REALITY-FOR-ROBOTICS-SPIDRONE/assets/93769409/82f6e131-d358-4b79-9a43-86895da8d17d)
+![spraying 123](https://github.com/Nirmalkumar-007/VIRTUAL-REALITY-FOR-ROBOTICS-SPIDRONE/assets/93769409/3c13f0d5-41a3-40ba-9bad-afff6c86b460)
+
 
 ----
 #### 7. FINAL ENVIRONMENT:
