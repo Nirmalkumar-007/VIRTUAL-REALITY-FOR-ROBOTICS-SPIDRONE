@@ -285,6 +285,13 @@ In conclusion, the autonomous UAV for pesticide spraying revolutionizes the agri
 
 #### 9. REFERENCES:
 
+- https://ardupilot.org/planner/docs/mission-planner installation.html. Installing Mission Planner —
+Mission Planner documentation.
+- https://www.ronenbekerman.com/the-amazing-unreal-engine-ue4-drones-at-the vineyard/. vineyard.
+- https://www.youtube.com/watch?v=FAWwUILV-wslist=PL1dsjR6hDLHWONdsYhBsZn1vzTW BMCkT.
+Blueprint tutorial.
+- https://www.youtube.com/watch?v=ZgC9ghvAio. agricultural form creation.
+Report Page 10/10
 - https://microsoft.github.io/AirSim/build_windows/
 - https://www.youtube.com/watch?v=QL51f8qdsm8
 - https://github.com/microsoft/AirSim/issues/468
