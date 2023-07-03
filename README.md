@@ -1,34 +1,34 @@
-# VIRTUAL REALITY FOR ROBOTICS 
-## FINAL ASSIGNMENT - GROUP15 - SPIDRONE. 
-### PROJECT TOPIC: 
-### PRECISION SPRAYING AND SEEDING FROM THE AIR VIA AGRICULTURAL DRONES.
+# Virtual Reality for Robotics
+## Final Assignment - Group 15 - SPIDRONE. 
+### Project Topic: Precision Spraying and Seeding from the Air via Agricultural Drones.
+
 ----
 
-GROUP MEMBERS:
+Group Members:
 -  [Nirmal Kumar Ravikumar](https://github.com/Nirmalkumar-007)
 -  [Jerin Joy](https://github.com/jerin-joy)
 -  [Abdul Rauf](https://github.com/Roofi67)
 -  [Krishant Tharun](https://github.com/Nirmalkumar-007)
 
-UNDER THE GUIDANCE OF,
+Under the guidance of,
 -  Prof.  [Gianni Vercelli](https://rubrica.unige.it/personale/VUZCWVtr)
 
 
 ---
 
-Steps to simulate the drone in the environment can be found in the branch of this repository called RUN.
-  or press [STEPS TO SIMULATE](https://github.com/Nirmalkumar-007/VIRTUAL-REALITY-FOR-ROBOTICS-SPIDRONE/blob/RUN/README.md)
+Steps to simulate the drone in the environment can be found in the branch of this repository called **Run**.
+  or press [Steps to Simulate](https://github.com/Nirmalkumar-007/VIRTUAL-REALITY-FOR-ROBOTICS-SPIDRONE/blob/RUN/README.md)
 
 ---
 
-#### SYNOPSIS:
+#### Synopsis:
 - Create an autonomous UAV that works using a predefined plan that can be used to spray pesticides over large agricultural land. 
 - The drone is able to detect the type of areas to spray in the environment on its own. 
 - Then monitor the current condition and acquire the data coming from the environment.
 
 ---- 
 
-#### DESCRIPTION:
+#### Description:
 - Creating semiautonomous UAVs that work using a predefined plan that can be used to spray pesticides over
 large agricultural land. The drone is able to detect the type of areas to spray, monitor the current condition and spray where the areas are not well treated,
 and acquire the data coming from the environment on its own. Within the agricultural drone market, there are
@@ -54,7 +54,7 @@ agricultural land which makes the work easier for the drones.
 
 
 ---
-#### INTRODUCTION:
+#### Introduction:
 - In the modern world, maintaining a huge agricultural field is a major issue for humans. However, drones
 can break that barrier by overtaking the responsibilities of maintaining the fields in the given context. The two
 acronyms for drones are unmanned aerial vehicles (UAV) and unmanned aerial systems (UAS).  
@@ -77,21 +77,21 @@ agricultural drones are our fields of development for the course of this Virtual
 a semi-autonomous UAV that works using a predefined plan in an agricultural field for spraying applications.
 Further details about the state of the art are described in detail below.
 ---
-#### TOOLS USED:
+#### Tools Used:
 - There are more tools required for completing the assigned work. The main three tools used in this project
-are UNREAL ENGINE (4.27), MICROSOFT AIRSIM, the details
+are Unreal Engine (4.27), Microsoft AirSim, the details
 of the mentioned tools are described below.
-- #### UNREAL ENGINE: 
+- #### Unreal Engine: 
    - Unreal Engine is a complete suite of creation tools for game development, archi-
 textural, and automotive visualization, linear film and television content creation, broadcast, and live event
 production, training and simulation, and other real-time applications.
    - The Unreal engine has a lot of versions with advanced features. For this task, we used unreal engine version 4.27 for simulating the drone in the environment. 
-   - MARKET PLACE: This is a place where we can get the landscapes, foliages, effects, and many features required to fulfill a project. We used most of the features in our project.
+   - Marketplace: This is a place where we can get the landscapes, foliages, effects, and many features required to fulfill a project. We used most of the features in our project.
 
-- #### PYTHON 3.7:
+- #### Python 3.7:
    - Python 3.7 is a versatile and beginner-friendly programming language. With clean syntax and a rich ecosystem, it's ideal for web development, data analysis, and automation. New features like data classes and improved type hinting enhance coding efficiency. Python's extensive standard library and active community support make it a powerful choice for developers of all levels. 
 
-- #### MICROSOFT AIRSIM: 
+- #### Microsoft AirSim: 
    - AirSim (Aerial Informatics and Robotics Simulation) is an open-source, cross-
 platform simulator for drones, ground vehicles such as cars and various other objects, built on Epic Games
 proprietary Unreal Engine 4 as a platform for AI research. 
@@ -118,7 +118,7 @@ Here are some key features of AirSim for drone functions:
 By providing a realistic and customizable simulation environment, AirSim empowers developers to accelerate the development and testing of drone algorithms, ultimately leading to safer and more capable autonomous drone systems.
 
 ----
-#### ENVIRONMENT:
+#### Environment:
 
 - In Unreal Engine, the environment refers to the virtual world or scene created within the engine. It includes terrain, vegetation, lighting, weather, and objects to build immersive worlds.
 - Developers can sculpt terrain, place vegetation, and use advanced lighting techniques. Weather effects like rain and fog can be added, and various props and objects populate the environment.
@@ -135,12 +135,12 @@ By providing a realistic and customizable simulation environment, AirSim empower
      - Iterate and test for refinement.
        
 ----
-#### 1. AIR SIM GAME MODE:
+#### 1. AirSim Game Mode:
 - AirSim is primarily designed as a research and development platform for simulating autonomous systems, such as drones and vehicles. It provides a realistic simulation environment with accurate physics and sensor models.
   
 ![game mode](https://github.com/Nirmalkumar-007/VIRTUAL-REALITY-FOR-ROBOTICS-SPIDRONE/assets/93769409/e8da39e7-d96b-4938-91da-a9669d5af621)
 
-#### 2. LANDSCAPE AND HEIGHT MAP:
+#### 2. Landscape and Height Map:
 
 - There are more tools required for completing the assigned work.
 
@@ -148,7 +148,7 @@ By providing a realistic and customizable simulation environment, AirSim empower
 
 
 
-#### 3. FOLIAGES:
+#### 3. Foliages:
 
 - This environment is designed using the foliages to create the agricultural environment for carrying out spraying actions on agricultural land using UAVs.
 - There are a lot of foliages in the marketplace. We have used almost three packs of foliages to make this environment.
@@ -158,7 +158,7 @@ By providing a realistic and customizable simulation environment, AirSim empower
 ![Screenshot 2023-06-23 141933](https://github.com/Nirmalkumar-007/VIRTUAL-REALITY-FOR-ROBOTICS-SPIDRONE/assets/93769409/689a0a85-0b69-4ae8-9c64-42c1ee52d246)
 
 ----
-#### 4. CODE, LIBRARIES, AND DEPENDENCIES:
+#### 4. Code, Libraries, and Dependencies:
    
 CODE
 
@@ -236,7 +236,7 @@ The following calls are supported:
 - Returns the distances from the closest object in all six directions as a dictionary of 'up', 'down', 'right', 'left',
 'front', and 'back', in meters.
 
-## UI
+## User Interface
 
  Features:
  - The drone can be controlled manually using the keyboard, which is helpful for moving the drone to specific places to test an algorithm.
@@ -248,31 +248,31 @@ The following calls are supported:
 Most of the calls also have a 'wait' variable that when set to True will cause the call to only return when finished executing.
 
 ----
-#### 5. BLUEPRINT FOR SPRAYING PROCESS:
+#### 5. Blueprint for Spraying Process:
 - In this project, we have done the spraying process with the help of the blueprints. There are two different modes. One the drone can spray automatically when it is the nontreated places. And the other one can spray manually by pressing the alphabet "O" during the simulation.
 
-![BLUEPRINT FOR SPRAYING](https://github.com/Nirmalkumar-007/VIRTUAL-REALITY-FOR-ROBOTICS-SPIDRONE/assets/93769409/21eddda8-4a2b-4aaa-bc3c-829c62c815a2)
+![Blueprint for Spraying](https://github.com/Nirmalkumar-007/VIRTUAL-REALITY-FOR-ROBOTICS-SPIDRONE/assets/93769409/21eddda8-4a2b-4aaa-bc3c-829c62c815a2)
 
-![ENGINE INPUT FOR THE MANUAL SPRAYIMG BUTTON](https://github.com/Nirmalkumar-007/VIRTUAL-REALITY-FOR-ROBOTICS-SPIDRONE/assets/93769409/091e33d9-f878-47d5-9f01-a080463e87e1)
+![Engine Input for the Manual Spraying Button](https://github.com/Nirmalkumar-007/VIRTUAL-REALITY-FOR-ROBOTICS-SPIDRONE/assets/93769409/091e33d9-f878-47d5-9f01-a080463e87e1)
 
 ----
 
-#### 6. SPRAYING PROPERTIES & SPRAYING IN THE ENVIRONMENT:
+#### 6. Spraying Properties & Spraying in the environment:
 - There are different properties for the spraying imported from the marketplace to the project. We have used a preferred one for this task.
 
-![SPRAYING PROPERTIES](https://github.com/Nirmalkumar-007/VIRTUAL-REALITY-FOR-ROBOTICS-SPIDRONE/assets/93769409/82f6e131-d358-4b79-9a43-86895da8d17d)
+![Spaying Properties](https://github.com/Nirmalkumar-007/VIRTUAL-REALITY-FOR-ROBOTICS-SPIDRONE/assets/93769409/82f6e131-d358-4b79-9a43-86895da8d17d)
 ![spraying 123](https://github.com/Nirmalkumar-007/VIRTUAL-REALITY-FOR-ROBOTICS-SPIDRONE/assets/93769409/3c13f0d5-41a3-40ba-9bad-afff6c86b460)
 
 
 ----
 
-#### 7. FINAL ENVIRONMENT:
+#### 7. Final Environment:
 
 https://github.com/Nirmalkumar-007/VIRTUAL-REALITY-FOR-ROBOTICS-SPIDRONE/assets/93769409/9d4a93e6-2a86-4514-8aef-772beb2953ef
 
 ----
 
-#### 8. CONCLUSION:
+#### 8. Conclusion:
 - Introducing an autonomous UAV designed for efficient pesticide spraying in large agricultural areas. This drone operates based on a predefined plan, eliminating the need for manual intervention & in case if needed the drone can be controlled manually. Equipped with advanced sensing capabilities, it autonomously detects the areas requiring pesticide treatment (spraying), ensuring targeted spraying and minimizing environmental impact.
 
 - The UAV continuously monitors the current conditions of the agricultural land, collecting valuable data to optimize the spraying process. Through onboard sensors and cameras, it analyzes various parameters such as crop health, pest infestation levels, and soil moisture content. This data is then processed in real-time to make informed decisions regarding pesticide application.
@@ -283,7 +283,7 @@ In conclusion, the autonomous UAV for pesticide spraying revolutionizes the agri
 
 ----
 
-#### 9. REFERENCES:
+#### 9. References:
 
 - https://ardupilot.org/planner/docs/mission-planner  
 - https://www.ronenbekerman.com/the-amazing-unreal-engine-ue4-drones-at-the 
