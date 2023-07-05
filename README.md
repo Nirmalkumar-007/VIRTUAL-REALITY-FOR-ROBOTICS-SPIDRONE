@@ -8,7 +8,6 @@ Group Members:
 -  [Nirmal Kumar Ravikumar](https://github.com/Nirmalkumar-007)
 -  [Jerin Joy](https://github.com/jerin-joy)
 -  [Abdul Rauf](https://github.com/Roofi67)
--  [Krishant Tharun](https://github.com/Nirmalkumar-007)
 
 Under the guidance of,
 -  Prof.  [Gianni Vercelli](https://rubrica.unige.it/personale/VUZCWVtr)
