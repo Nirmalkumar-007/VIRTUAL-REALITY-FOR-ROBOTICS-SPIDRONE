@@ -237,6 +237,8 @@ The following calls are supported:
 
 ## User Interface
 
+![python_UI](https://github.com/Nirmalkumar-007/VIRTUAL-REALITY-FOR-ROBOTICS-SPIDRONE/assets/71594515/9b92b4f9-30a4-4efb-856b-15a108b7c818)
+
  Features:
  - The drone can be controlled manually using the keyboard, which is helpful for moving the drone to specific places to test an algorithm.
  - The UI shows the drone's position and orientation, as well as the velocity and lidars for easy debugging.
