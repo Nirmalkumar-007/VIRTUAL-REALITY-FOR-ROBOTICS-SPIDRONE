@@ -13,6 +13,10 @@ https://github.com/microsoft/AirSim.git
 ```
 git@github.com:Nirmalkumar-007/VIRTUAL-REALITY-FOR-ROBOTICS-SPIDRONE.git
 ```
+or download from Onedrive
+```
+https://unigeit-my.sharepoint.com/:f:/g/personal/s5168055_studenti_unige_it/Eu5yQxclRytKtBoQU_SPEusBnJiLO-cilnrrC4Iq8TVQMA?e=cQBKi1
+```
 6. Launch the unreal engine and choose EL_grounds from the content browser.
 
 7. Open maps from the EL_grounds and double click on the FINAL_MAPS. Here we can find the environment for the simulation. 
